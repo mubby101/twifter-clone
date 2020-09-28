@@ -219,14 +219,21 @@ main .tweet:last-child {
 }
 
 .image1 {
-    height: 1.6rem;
-    margin-top: 0.9rem;
+    height: 1.9rem;
+    margin-top: 1.7rem;
     margin-right: 0.7rem;
+    border-radius: 50px;
+    padding: 0.4rem 0.4rem;
 }
 
 .image2 {
     margin-right: 0.7rem;
+    /* margin-bottom: 9.7rem; */
     margin-left: 0.7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 8rem; */
 }
 
 .handle {
@@ -239,19 +246,57 @@ h4 {
     padding-left: 0.6rem;
     padding-right: 0.6rem;
     padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    height: 2rem;
+    padding-bottom: 0.rem;
+    height: 2.4rem;
     margin-left: 30rem;
+    color: white;
 }
 
 .meg {
-    border-top: 3px rgb(218, 220, 224)solid;
+    border-top: 7px rgb(218, 220, 224)solid;
 }
 
 .juve {
+    margin-left: 2rem;
     margin-top: 2rem;
 }
 
 .ball {
     margin-left: 3rem;
+}
+
+.emoji {
+    height: 1.3rem;
+    margin-top: 1.7rem;
+    /* margin-bottom: 1.7rem; */
+    margin-right: 0.7rem;
+    border-radius: 50px;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    /* padding-top: 0.1rem; */
+    /* padding-bottom: 0.3rem; */
+    /* padding: 0.4rem 0.4rem; */
+}
+
+
+/* .image2:hover { */
+
+background-color: var(--lightblue);
+
+}
+
+/* .image1:hover { */
+background-color: var(--lightblue);
+
+}
+
+/* .emoji:hover { */
+background-color: var(--lightblue);
+
+}
+.meg1 {
+    margin-left: 4rem;
+}
+.whole:hover {
+    background-color: var(--lightblue);
 }
