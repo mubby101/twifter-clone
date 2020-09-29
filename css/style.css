@@ -198,7 +198,7 @@ main .tweet:last-child {
 }
 
 .page-wrapper aside {
-    background-color: khaki;
+    /* background-color: whitesmoke; */
 }
 
 @keyframes pgLoading {
@@ -295,8 +295,35 @@ background-color: var(--lightblue);
 
 }
 .meg1 {
-    margin-left: 4rem;
+    padding-left: 4rem;
 }
 .whole:hover {
     background-color: var(--lightblue);
+}
+.picture {
+    margin-left: 2rem;
+}
+.bot1 {
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    height: 2.8rem;
+    /* width: -5rem; */
+    margin-top: 0.5rem;
+    border-radius: 5rem;
+    color: #aaaaaa;
+}
+.search {
+    margin-left: 0.8rem;
+    margin-right: 1rem;
+}
+.bot2 {
+    height: 20rem;
+    padding-right: 10rem;
+    border-radius: 0.5rem;
+}
+.setting {
+    margin-left: 20rem;
 }
